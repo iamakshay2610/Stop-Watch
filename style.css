@@ -1,0 +1,142 @@
+
+/* Outer Div */
+#container{
+    height: 260px;
+    width: 300px;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    border: 4px solid grey;
+    border-radius: 15%;
+    
+}
+/* Innner div*/
+#inner{
+    height: 150px;
+    width: 260px;
+    background-color: rgb(19, 14, 14);
+    border-radius: 6%;
+    border: 4px 3px 0px 0px solid black;
+    padding: 30px 20px 50px 20px;
+    
+
+}
+
+/* watch Display design*/
+#display-design{
+    height: 100px;
+    width: 210px;
+    background-color: rgb(37, 184, 37);
+
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 5%;
+    margin-left: 20px;
+    
+
+    
+}
+
+/* inbuilt clock display */
+#clock{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-weight: 900;
+    font: bold;
+    font-size: 1rem;
+}
+
+/* Timer-Display*/
+#display{
+    margin-left: 30px;
+    margin-top: -5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+}
+
+#time-text{
+    color: white;
+    margin-left: 62%;
+    margin-top: 7%;
+}
+
+/* Buttons */
+.buttons{
+    display: flex;
+   /* flex-direction: column;*/
+    height: 200px;
+    width: 100px;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+
+div button{
+    cursor: pointer;
+}
+
+#start-button{
+    /*border: 2px solid gray;*/
+    border-radius: 50%;
+    background-color: #4aae71;
+    border: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-family: inherit;
+    border: 2px solid transparent;
+    
+}
+
+#start-button:hover{
+    transition: all 0.4s ease 0s;
+    background-color: brown;
+    
+
+    
+
+}
+
+#stop-button{
+   /* border: 2px solid gray;*/
+    border-radius: 50%;
+    background-color: #f90c0c;
+    border: none;
+    height: 40px;
+    width: 80px;
+    color: white;
+    font-family: inherit;
+    border: 1px solid transparent;
+    margin-left: 5px;
+}
+
+#stop-button:hover{
+    transition: all 0.4s ease 0s;
+    background-color: brown;
+}
+
+#reset-button{
+    /*border: 2px solid gray;*/
+    border-radius: 50%;
+    background-color: #fbad10;
+    border: none;
+    height: 40px;
+    width: 80px;
+    color: white;
+    font-family: inherit;
+    border: 1px solid transparent;
+    margin-left: 5px;
+}
+
+#reset-button:hover{
+    transition: all 0.4s ease 0s;
+    background-color: brown;
+}
+
+
